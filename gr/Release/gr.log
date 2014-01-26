@@ -1,0 +1,103 @@
+﻿已經開始建置於 2013/11/1 下午 02:17:45。
+     1>節點 3 (build 目標) 上的專案 "D:\visual studio 2010\Projects\gr\gr\gr.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Release\gr.unsuccessfulbuild"。
+       ClCompile:
+         所有輸出都是最新的。
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\gr.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt gr.cpp handReader.cpp
+         gr.cpp
+     1>d:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 請參閱 'fopen' 的宣告
+     1>d:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>D:\opencv\build\include\opencv2/legacy/compat.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>D:\opencv\build\include\opencv2/legacy/compat.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>D:\opencv\build\include\opencv2/legacy/compat.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>gr.cpp(102): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>gr.cpp(102): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>gr.cpp(23): warning C4101: 'pt' : 未參考的區域變數
+     1>gr.cpp(16): warning C4101: 'cputime' : 未參考的區域變數
+         handReader.cpp
+     1>d:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 請參閱 'fopen' 的宣告
+     1>d:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>D:\opencv\build\include\opencv2/legacy/compat.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>D:\opencv\build\include\opencv2/legacy/compat.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>handReader.cpp(35): warning C4018: '<' : signed/unsigned 不相符
+     1>handReader.cpp(45): warning C4018: '<' : signed/unsigned 不相符
+     1>handReader.cpp(138): warning C4258: 'k' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 handReader.cpp(134) : 已忽略 'k' 的定義
+                 handReader.cpp(88) : 已使用 'k' 的定義
+     1>handReader.cpp(139): warning C4258: 'k' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 handReader.cpp(134) : 已忽略 'k' 的定義
+                 handReader.cpp(88) : 已使用 'k' 的定義
+     1>handReader.cpp(140): warning C4258: 'k' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 handReader.cpp(134) : 已忽略 'k' 的定義
+                 handReader.cpp(88) : 已使用 'k' 的定義
+     1>handReader.cpp(141): warning C4258: 'k' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 handReader.cpp(134) : 已忽略 'k' 的定義
+                 handReader.cpp(88) : 已使用 'k' 的定義
+     1>handReader.cpp(142): warning C4258: 'k' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 handReader.cpp(134) : 已忽略 'k' 的定義
+                 handReader.cpp(88) : 已使用 'k' 的定義
+     1>handReader.cpp(143): warning C4258: 'k' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 handReader.cpp(134) : 已忽略 'k' 的定義
+                 handReader.cpp(88) : 已使用 'k' 的定義
+     1>handReader.cpp(144): warning C4258: 'k' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 handReader.cpp(134) : 已忽略 'k' 的定義
+                 handReader.cpp(88) : 已使用 'k' 的定義
+     1>handReader.cpp(148): warning C4258: 'k' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 handReader.cpp(134) : 已忽略 'k' 的定義
+                 handReader.cpp(88) : 已使用 'k' 的定義
+     1>handReader.cpp(149): warning C4258: 'k' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 handReader.cpp(134) : 已忽略 'k' 的定義
+                 handReader.cpp(88) : 已使用 'k' 的定義
+     1>handReader.cpp(149): warning C4258: 'k' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 handReader.cpp(134) : 已忽略 'k' 的定義
+                 handReader.cpp(88) : 已使用 'k' 的定義
+     1>handReader.cpp(149): warning C4258: 'k' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 handReader.cpp(134) : 已忽略 'k' 的定義
+                 handReader.cpp(88) : 已使用 'k' 的定義
+     1>handReader.cpp(150): warning C4258: 'k' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 handReader.cpp(134) : 已忽略 'k' 的定義
+                 handReader.cpp(88) : 已使用 'k' 的定義
+     1>handReader.cpp(150): warning C4258: 'k' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 handReader.cpp(134) : 已忽略 'k' 的定義
+                 handReader.cpp(88) : 已使用 'k' 的定義
+     1>handReader.cpp(150): warning C4258: 'k' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 handReader.cpp(134) : 已忽略 'k' 的定義
+                 handReader.cpp(88) : 已使用 'k' 的定義
+     1>handReader.cpp(151): warning C4258: 'k' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 handReader.cpp(134) : 已忽略 'k' 的定義
+                 handReader.cpp(88) : 已使用 'k' 的定義
+     1>handReader.cpp(151): warning C4258: 'k' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 handReader.cpp(134) : 已忽略 'k' 的定義
+                 handReader.cpp(88) : 已使用 'k' 的定義
+     1>handReader.cpp(151): warning C4258: 'k' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 handReader.cpp(134) : 已忽略 'k' 的定義
+                 handReader.cpp(88) : 已使用 'k' 的定義
+     1>handReader.cpp(195): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>handReader.cpp(196): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\visual studio 2010\Projects\gr\Release\gr.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d245.lib opencv_contrib245.lib opencv_core245.lib opencv_features2d245.lib opencv_flann245.lib opencv_gpu245.lib opencv_highgui245.lib opencv_haartraining_engine.lib opencv_imgproc245.lib opencv_legacy245.lib opencv_ml245.lib opencv_nonfree245.lib opencv_objdetect245.lib opencv_photo245.lib opencv_stitching245.lib opencv_ts245.lib opencv_video245.lib opencv_videostab245.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\gr.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\visual studio 2010\Projects\gr\Release\gr.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\visual studio 2010\Projects\gr\Release\gr.lib" /MACHINE:X86 Release\basicProcessing.obj
+         Release\gr.obj
+         Release\handReader.obj
+         Release\stdafx.obj
+         正在產生程式碼
+         已完成程式碼產生
+         gr.vcxproj -> D:\visual studio 2010\Projects\gr\Release\gr.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\visual studio 2010\Projects\gr\Release\gr.exe;#1" /manifest Release\gr.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "Release\gr.unsuccessfulbuild"。
+         正在變更時間戳記 "Release\gr.lastbuildstate"。
+     1>專案 "D:\visual studio 2010\Projects\gr\gr\gr.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:14.13

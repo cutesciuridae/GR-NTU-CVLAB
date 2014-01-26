@@ -1,0 +1,13 @@
+﻿已經開始建置於 2013/11/1 下午 02:17:45。
+     1>節點 2 (build 目標) 上的專案 "D:\visual studio 2010\Projects\gr\haar\haar.vcxproj"。
+     1>InitializeBuildStatus:
+         正在變更時間戳記 "Release\haar.unsuccessfulbuild"。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(1): fatal error C1083: 無法開啟包含檔案: 'opencv/cv.h': No such file or directory
+     1>專案 "D:\visual studio 2010\Projects\gr\haar\haar.vcxproj" (build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:04.41
